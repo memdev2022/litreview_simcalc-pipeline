@@ -8,14 +8,14 @@ rm(list = ls())
   library(rstudioapi)
 }
 
-{
-  directory = dirname(getSourceEditorContext()$path) %>% str_extract(pattern = '[^simcalc-pipeline]+') %>% file.path("simcalc-pipeline")
-  data_path = file.path(directory,'data_files')
-  script_path = file.path(directory,'scripts') 
-  funcon_path = file.path(directory,'supplementary_files')
-  result_path = file.path(directory,'visualization')
-  setwd(directory)
-}
+# {
+#   directory = dirname(getSourceEditorContext()$path) %>% str_extract(pattern = '[^simcalc-pipeline]+') %>% file.path("simcalc-pipeline")
+#   data_path = file.path(directory,'data_files')
+#   script_path = file.path(directory,'scripts') 
+#   funcon_path = file.path(directory,'supplementary_files')
+#   result_path = file.path(directory,'visualization')
+#   setwd(directory)
+# }
 
 # Cosmetics
 {source(file.path(funcon_path, "PN_GetPalette.R"))}
