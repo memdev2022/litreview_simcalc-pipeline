@@ -1,0 +1,15 @@
+#ignoring .DS_Store files
+*.DS_Store
+/**.DS_Store
+*/**__pycach__
+*/**/*.pyc
+
+#directory where output matrices and single dimension vectors are saved
+data_files/02a_Unconstrained/**.csv
+data_files/02b_Constrained/**.csv
+data_files/03_DimsOfInterest/*.csv
+
+
+#exclude Rhistory files
+.Rhistory
+**/.Rhistory
