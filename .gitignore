@@ -13,7 +13,7 @@
 visualization/**
 #except .gitkeep
 !visualization/.gitkeep
-
+!visualization/.gitkeep copy
 
 #directory where output matrices and single dimension vectors are saved
 data_files/02a_Unconstrained/**.csv
