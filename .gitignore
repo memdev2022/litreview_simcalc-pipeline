@@ -4,6 +4,17 @@
 */**__pycach__
 */**/*.pyc
 
+#all .xlsx
+**/*.xlsx
+#ecxept the QC Sheet
+!data_files/Lit_Review_QC.xlsx
+
+#everything under visualisation:
+visualization/**
+#except .gitkeep
+!visualization/.gitkeep
+
+
 #directory where output matrices and single dimension vectors are saved
 data_files/02a_Unconstrained/**.csv
 data_files/02b_Constrained/**.csv
